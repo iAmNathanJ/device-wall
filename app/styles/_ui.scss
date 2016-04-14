@@ -1,0 +1,21 @@
+[role='navigation'] a {
+  color: red;
+}
+
+.btn {
+  display: inline-block;
+  padding: .5em 1em;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #555;
+  background: rgba(blue, 0.05);
+  border: 2px solid #ccc;
+  @include border-radius-style;
+
+  &.big {
+    padding: .75em 1.5em;
+    font-size: 2em;
+    border: 3px solid #ccc;
+  }
+}

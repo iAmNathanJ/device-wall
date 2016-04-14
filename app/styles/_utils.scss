@@ -1,0 +1,5 @@
+@mixin border-radius-style {
+  @if $border-radius > 0 {
+    border-radius: $border-radius;
+  }
+}
